@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Siti Nursyafiqah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Mobile Header -->
+  <header class="mobile-header">
+    <div class="mobile-header-content">
+      <h2>Siti Nursyafiqah</h2>
+      <button id="hamburgerBtn" class="hamburger">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Navigation -->
+  <nav class="nav-menu mobile-menu">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="theme-toggle">
+        <label class="switch">
+          <input type="checkbox" id="themeSwitchMobile">
+          <span class="slider round"></span>
+        </label>
+        <span id="themeLabelMobile">Dark Mode</span>
+      </li>   
+       
+    </ul>
+  </nav>
+
+  <!-- Sidebar for Desktop -->
+  <div class="container">
+    <aside class="sidebar"> 
+      <img src="Img/profile.jpg" alt="Profile Picture" class="profile-img">
+      <h2>Siti Nursyafiqah</h2>
+      <p class="role">Designer in Indonesia</p> 
+      <nav class="nav-menu desktop-menu">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a> 
+        <div class="theme-toggle">
+          <label class="switch">
+            <input type="checkbox" id="themeSwitch">
+            <span class="slider round"></span>
+          </label>
+          <span id="themeLabel">Dark Mode</span>
+        </div>   
+      </nav> 
+    </aside>
+
+    <main class="content">
+      <section id="home" class="intro">
+        <div class="intro-container">
+          <div class="intro-text">
+            <h1><strong>I am a Designer</strong></h1>
+            <p>Graphic Designer || UI/UX Designer || Web Developer || 2D Animator || Content Creator</p>
+            <button onclick="viewPortfolio()">View Portfolio</button>
+          </div>
+          <div class="intro-image">
+            <img src="Img/heroo.jpg" alt="Hero Image">
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          Saya <strong>Siti Nursyafiqah</strong>, mahasiswi semester 6 di Universitas Negeri Jakarta, jurusan
+          Pendidikan Teknik Informatika dan Komputer (PTIK) dengan peminatan Multimedia. Saya aktif dalam
+          kegiatan akademik maupun non-akademik, serta memiliki minat besar dalam dunia
+          <strong>Desain Grafis, Animasi, Content Creator, Pembuatan Game, dan Media Interaktif</strong>.
+        </p> <br>
+        <p>
+          Selama kuliah, saya telah mengembangkan berbagai keterampilan di bidang multimedia, khususnya dalam
+          penggunaan software seperti
+          <strong>Adobe Animate</strong>, <strong>Illustrator</strong>, <strong>GDevelop 5</strong>,
+          <strong>Figma</strong>, dan <strong>Visual Studio Code</strong>.
+          Saya juga tertarik dengan UI/UX design dan terus mengeksplorasi dunia kreatif digital.
+        </p>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card animate-up">
+            <img src="https://img.icons8.com/color/48/figma--v1.png" alt="Figma">
+            <p>Figma</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://img.icons8.com/color/48/canva.png" alt="Canva">
+            <p>Canva</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://cdn.brandfetch.io/idiqrYE5Wz/w/400/h/400/theme/dark/icon.png?c=1dxbfHSJFAPEGdCLU4o5B" alt="GDevelop5">
+            <p>GDevelop5</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://store-images.s-microsoft.com/image/apps.22097.14102915323624777.90ee5c5c-c652-425d-afea-ca532bf9a6fb.53925143-8fee-448c-a6b8-7b4cc636d6c2?h=307" alt="PixelArt">
+            <p>PixelStudio</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://upload.wikimedia.org/wikipedia/id/3/36/CapCut_logo.png" alt="Capcut">
+            <p>Capcut</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://img.icons8.com/color/48/adobe-animate--v1.png" alt="Adobe Animate">
+            <p>Adobe Animate</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="VS Code">
+            <p>VS Code</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://img.icons8.com/color/48/html-5--v1.png" alt="HTML">
+            <p>HTML</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://img.icons8.com/color/48/css3.png" alt="CSS">
+            <p>CSS</p>
+          </div>
+          <div class="skill-card animate-up">
+            <img src="https://img.icons8.com/color/48/javascript--v1.png" alt="JavaScript">
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-container">
+          <div class="edu-card animate-up">
+            <h3>SD IT Darunna'iim</h3>
+            <p>Pendidikan Dasar dengan penekanan pada nilai-nilai agama dan akademik.</p>
+          </div>
+          <div class="edu-card animate-up">
+            <h3>MTsN 8 Jakarta</h3>
+            <p>Menempuh pendidikan menengah pertama dengan fokus pada ilmu umum dan agama.</p>
+          </div>
+          <div class="edu-card animate-up">
+            <h3>MAN 12 Jakarta</h3>
+            <p>Memperdalam ilmu sains dan sosial, serta aktif dalam kegiatan organisasi dan lomba.</p>
+          </div>
+          <div class="edu-card animate-up">
+            <h3>S1 PTIK UNJ</h3>
+            <p>Mahasiswi jurusan Pendidikan Teknik Informatika dan Komputer dengan peminatan Multimedia.</p>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-container">
+      
+          <div class="exp-card animate-up">
+            <h3>Desainer UI Aplikasi</h3>
+            <span class="exp-time">2023 - 2024</span>
+            <p>Proyek Akademik & Pribadi</p>
+            <ul>
+              <li>Mendesain antarmuka aplikasi edukatif menggunakan Figma dalam ajang Technology Innovation Challenge UNICEF oleh Markoding.</li>
+              <li>Membuat user flow, wireframe, dan prototipe interaktif.</li>
+              <li>Berkontribusi dalam tim proyek kampus untuk pengembangan aplikasi berbasis pengguna.</li>
+            </ul>
+          </div>
+      
+          <div class="exp-card animate-up">
+            <h3>Animator 2D</h3>
+            <span class="exp-time">2024</span>
+            <p>Proyek Tugas Kuliah</p>
+            <ul>
+              <li>Membuat animasi edukatif berdurasi pendek menggunakan After Effects.</li>
+              <li>Ilustrasi karakter, storyboard, dan animasi akhir.</li>
+              <li>Menyampaikan pesan edukatif melalui visual menarik dan komunikatif.</li>
+            </ul>
+          </div>
+      
+          <div class="exp-card animate-up">
+            <h3>Content Creator & Talent</h3>
+            <span class="exp-time">2023 - Sekarang</span>
+            <p>Freelance</p>
+            <ul>
+              <li>Menjadi talent konten dan event seperti Wardah, Kahf, Instaperfect, termasuk wawancara eksklusif.</li>
+              <li>Mewawancarai CEO PT Paragon & public figure/artis.</li>
+              <li>Membuat konten promosi brand fashion dan lifestyle.</li>
+              <li>Berperan dalam photoshoot, agency media, dan video endorsement.</li>
+              <li>Mengelola konsep, produksi, dan editing konten media sosial.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <section id="portfolio" class="section">
+        <h2>Portfolio Projects</h2>
+        <div class="portfolio-gallery">
+          <div class="project-card">
+            <img src="Img/UI aplikasi.gif" alt="Project 1 GIF">
+            <h3>UI Design App</h3>
+            <p>Desain aplikasi edukatif Lowca dengan pendekatan UX interaktif menggunakan Figma.</p>
+          </div>
+          <div class="project-card">
+            <img src="Img/Animasi 2D.gif" alt="Project 2 GIF">
+            <h3>2D Animation</h3>
+            <p>Animasi edukatif menggunakan Adobe Animate & After Effects.</p>
+          </div>
+          <div class="project-card">
+            <img src="Img/Web CompanyProfile.gif" alt="Project 3 GIF">
+            <h3>Web Company Profile</h3>
+            <p>Membuat contoh company profile dengan HTML, CSS, dan JavaScript.</p>
+          </div>
+          <div class="project-card">
+            <img src="Img/UI Figma.gif" alt="Project 4 GIF">
+            <h3>UI Figma</h3>
+            <p>Desain aplikasi Nutricount dengan pendekatan UX interaktif menggunakan Figma.</p>
+          </div>
+          <div class="project-card">
+            <img src="Img/Interactive game.gif" alt="Project 5 GIF">
+            <h3>Interactive Game</h3>
+            <p>Proyek game berbasis GDevelop5 untuk semua usia, serta membuat aset dengan pixelstudio.</p>
+          </div>
+          <div class="project-card">
+            <img src="Img/web cv.gif" alt="Project 6 GIF">
+            <h3>Web CV</h3>
+            <p>Portofolio pribadi dengan HTML, CSS, dan JavaScript.</p>
+          </div>
+          <div class="project-card">
+            <img src="Img/content creator.gif" alt="Project 7 GIF">
+            <h3>Content Creator</h3>
+            <p>Instagram @Fikaaasn dengan 29.8K pengikut. Mahir dalam mengembangkan stategi konten, produksi, dan interaksi audiens</p>
+          </div>
+          <div class="project-card">
+            <img src="Img/Talent.gif" alt="Project 8 GIF">
+            <h3>Talent</h3>
+            <p>Talent photoshoot untuk fashion, beauty, dan talent wawancara isu sosial, agama.</p>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="contact" class="contact-section">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">Feel free to reach out to me through any of the platforms below.</p>
+      
+        <div class="contact-cards">
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:syafiqahh21@gmail.com">syafiqahh21@gmail.com</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <h3>Phone</h3>
+            <p><a href="tel:081319297524">0813-1929-7524</a></p>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-instagram"></i>
+            <h3>Instagram</h3>
+            <p><a href="https://www.instagram.com/Fikaaasn" target="_blank">@Fikaaasn</a></p>
+          </div>
+        </div>
+      </section>
+      
+      
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
